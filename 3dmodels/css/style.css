@@ -1,0 +1,24 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  max-width: 1000px;
+  margin: auto;
+  padding: .2em;
+  line-height: 1.5em;
+}
+h4 {
+	margin: 0 0 -1em;
+}
+img {
+	display: block;
+	margin: 20px auto;
+	width: 80vw;
+	max-width: 800px;
+	min-width: 500px;
+}
+.two-col {
+	display: flex;
+	align-items: center;
+	width: 90vw;
+	max-width: 960px;
+	margin: 0 auto;
+}

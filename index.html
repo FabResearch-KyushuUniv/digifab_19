@@ -10,8 +10,8 @@
   <h1>digifab_19</h1>
   <hr>
   <p>平成31年度春学期臨時開設科目「デジタルファブリケーション」の授業資料です。<br>
-  <a href="https://photos.app.goo.gl/c5sRWxQYv99gyvVR8" target="_blank">[昨年の様子]</a><br>
-  <a href="https://www.kidnext.design.kyushu-u.ac.jp/Projects/view/107?lang=ja" target="_blank">[展示会アーカイブ]</a>
+  <a href="https://photos.app.goo.gl/2znTay2xXb1aJgZL7" target="_blank">[昨年の様子]</a><br>
+  <a href="https://www.kidnext.design.kyushu-u.ac.jp/Projects/view/107?lang=ja" target="_blank">[昨年の展示会情報]</a>
   </p>
 
 
@@ -22,17 +22,7 @@
     </p>
     <a href="https://artscape.jp/artword/index.php/デジタル・ファブリケーション" target="_blank">デジタル・ファブリケーション | 現代美術用語辞典ver.2.0</a>
   </blockquote>
-<!--
-  
-  <h3>参考</h3>
-  <ul>
-  <li><a href="https://www.processing.org/reference/" target="_blank">公式リファレンス</a></li>
-  <li><a href="https://www.openprocessing.org/browse/#" target="_blank">OpenProcessing</a></li>
-  <li><a href="https://shiffman.net/" target="_blank">Shiffman先生</a></li>
-  <li><a href="https://www.youtube.com/user/shiffman/playlists?shelf_id=2&sort=dd&view=50" target="_blank">Shiffman先生-Processing基礎</a></li>
-  <li>Processing内のサンプル</li>
-  </ul>
--->
+  <a href="https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code?utm_campaign=tedspread&utm_medium=referral&utm_source=tedcomshare" target="_blank">ミッチェル・レズニック 「子供達にプログラミングを教えよう」 (Mitch Resnick | TEDxBeaconStreet)</a>
   <hr>
 
   <h3>Tinkercadの使い方</h3>
@@ -40,36 +30,15 @@
 	<p>Autodeskのアカウントがある人はそのままサインイン、無い人は新しく作る。</p>
   <hr>
 
-  <h3>2Dのデータを作る</h3>
-<!--
-  <p>processingの初歩をまず最初にやって、最終的に2DのデータをSVGで書き出します。</p>
-  <h4>processingで何か書く</h4>
-  <p>/sample01_firstと/sample02_drawを参照してください。</p>
-
-  <h4>マウス、if文</h4>
-  <p>/sample03_mouseを参照してください。</p>
-
-  <h4>for文、乱数の生成</h4>
-  <p>/sample04_randomを参照してください。</p>
-
-  <h4>SVGの書き出し</h4>
-  <p>/sample05_svgと/sample06_svg_v2を参照してください。</p>
-  <br>
-  <small>(以下、余裕があれば見てみてください)</small>
-  <h4>配列</h4>
-  <p>/sample07_mouse_2を参照してください。</p>
-
-  <h4>マイク</h4>
-  <p>/sample08_soundを参照してください。</p>
-
-  <h4>波形の描画</h4>
-  <p>/sample09_waveを参照してください。</p>
-  <p><a href="https://fabresearch-kyushuuniv.github.io/digifab_18/data/2D-modeling.zip">サンプルファイル(2D)</a></p>
--->
-  <hr>
-
   <h3>3Dのデータを作る</h3>
-<!--  <p>toxiclibsというライブラリを使って、最終的に3DのデータをSTLで書き出します。</p>-->
+  <ul>
+  	<li><a href="3dmodels/sample00/sample00.html" target="_blank">sample00</a></li>
+  	<li><a href="3dmodels/sample01/sample01.html" target="_blank">sample01</a></li>
+  	<li><a href="3dmodels/sample02/sample02.html" target="_blank">sample02</a></li>
+  	<li><a href="3dmodels/sample03/sample03.html" target="_blank">sample03</a></li>
+  	<li><a href="3dmodels/sample04/sample04.html" target="_blank">sample04</a></li>
+		<li><a href="3dmodels/sample05/sample05.html" target="_blank">sample05</a></li>
+  </ul>	
   <h4>3Dモデリングの種類</h4>
   <h4>モデリングソフト</h4>
   <ul>
@@ -77,15 +46,12 @@
     <li>3DCG (Maya, Blender, Cinema4D)<br>三次元のメッシュを編集したりくっつけたりする</li>
     <li>スカルプト系(Sculptris,ZBrush)<br>粘土をこねるようにモデルを作る</li>
     <li>ノードプログラミング(Rhino+grasshopper)<br>数値や関数のブロックを繋げてモデリングする。</li>
-    <li>プログラミング</li>
+    <li>プログラミング（OpenSCAD, Processing?, Tinkercad-Codeblocks）<br>コードを書く</li>
   </ul>
-  <h4>メッシュ</h4>
-  <p>コンピューターの中では三次元データは<strong>(x,y,z)の頂点(Vertex)</strong>それを結ぶ<strong>線(Edge)</strong>線を繋いでできる<strong>面(Face)</strong>で構成されます。<br>
-  これら集合が<strong>Mesh</strong>。3Dプリンタで出力するにはソリッドモデルである必要がある。→MESHを閉じる処理が必要</p>
   <h4>STL(Standard Triangulated Language)フォーマット</h4>
   <p>三次元モデルの各頂点、線、面(とその向き)が入っている。面の捻じれが起こらないように、全ての面は三角形で表現される必要がある。</p>
-
-<!--  <p><a href="https://fabresearch-kyushuuniv.github.io/digifab_18/data/3D-modeling.zip">サンプルファイル(3D)</a></p>-->
+	<a href="http://blog.ricoh.co.jp/3dp/2016/10/3d-31.html">cf. 3Dプリンター用データ① ～STLファイルへの変換は片道通行～</a>
+  <a href="http://d-engineer.com/3dcad/3dmsyurui.html">cf. 3Dモデルの表現方法（ソリッド／サーフェス）</a>
 
   <hr>
   <h3>書籍リスト</h3>
@@ -94,7 +60,7 @@
         <small>ソフトバンククリエイティブ (2001/03) 978-4797315271<a href="https://www.amazon.co.jp/dp/479731527X" target="_blank">amazon</a></small></li>
       <li>『Digital Fabrications: Architectural and Material Techniques (Architecture Briefs)』<br>
         <small>Princeton Architectural Press; 1版 (2009/7/1) 978-1568987903<a href="https://www.amazon.co.jp/dp/1568987900" target="_blank">amazon</a></small></li>
-      <li style="color:red">『退屈をぶっとばせ! ―自分の世界を広げるために本気で遊ぶ (Make: Japan Books)』<br>
+      <li>『退屈をぶっとばせ! ―自分の世界を広げるために本気で遊ぶ (Make: Japan Books)』<br>
         <small>オライリージャパン (2018/5/26) 978-4873118390<a href="https://www.amazon.co.jp/dp/4873118395" target="_blank">amazon</a></small></li>
       <li>『FabLab: Of Machines, Makers and Inventors (Cultural and Media Studies)』<br>
         <small>Transcript Verlag (2014/1/21) 978-3837623826<a href="https://www.amazon.co.jp/dp/3837623823" target="_blank">amazon</a></small></li>
